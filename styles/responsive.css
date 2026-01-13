@@ -239,11 +239,8 @@ footer{
 .copy-right{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     max-width: 1440px;
     background-color: #FFF4E7;
-    /* text-align: center; */
-    /* padding: 39px 410px; */
     font-size: 1.25rem;
     color: #424242;
 }
