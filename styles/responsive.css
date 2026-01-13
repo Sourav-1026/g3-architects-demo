@@ -4,15 +4,8 @@
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  /* font-weight: 500; */
   font-style: normal;
 }
-
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}  */
 
 /* shared styles */
 .display-flex{
@@ -75,10 +68,10 @@ header{
 
 /* banner styles */
 
-/* .banner{
+.banner{
     min-height: 100vh;
     height: auto;
-} */
+}
 
 .banner-content {
     max-width: 850px;
@@ -145,6 +138,34 @@ main > section{
     margin-bottom: 32px;
 }
 
+/* feature related style */
+#sidebar{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features{
+    gap: 140px;
+}
+
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card .feature-title{
+    font-size: 600;
+    font-size: 1.25rem;
+    color: #131313;
+}
+
+.feature-card .feature-title-descrip{
+    font-size: 1rem;
+    color: #727272;
+}
+
 /* fact related style */
 .facts-description{
     max-width: 540px;
@@ -162,7 +183,6 @@ main > section{
     border: 1px solid #FF900E;
     width: 241px;
     height: 241px;
-    /* padding: 46px 37px; */
     border-radius: 8px;
 }
 
